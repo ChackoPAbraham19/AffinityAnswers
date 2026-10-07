@@ -6,7 +6,7 @@ Takes a search term, fetches the mdcomputers.in search results, and prints the l
 
 ```bash
 python3 -m venv .venv
-.venv/bin/pip install playwright
+.venv/bin/pip install -r requirements.txt
 .venv/bin/playwright install chromium
 ```
 
